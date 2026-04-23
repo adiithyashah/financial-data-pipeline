@@ -1,19 +1,18 @@
-# Financial Data Pipeline
+# Bitcoin Price Tracker
 
-This is my first data engineering project.
+A Python-based application that fetches real-time Bitcoin prices using an external API and stores them in a PostgreSQL database.
 
-## Goal
-Build a project that fetches financial data from an API and stores it in a database.
+## Features
+- Fetches live price data via API
+- Stores data in PostgreSQL
+- Filters small price changes to optimize storage
 
 ## Tech Stack
 - Python
-- Requests
-- Git
-- GitHub
+- REST API
 - PostgreSQL
 
-## Current Progress
-- Set up Python and Git
-- Created a Git repository
-- Connected to GitHub
-- Fetched financial data from an API
+## Learning Outcomes
+- API integration
+- Database handling
+- Data pipeline basics
